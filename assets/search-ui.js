@@ -54,7 +54,7 @@ function startSearchUI(fields, indexFile, url) {
       var results     = index.search(query, { bool: 'AND', expand: true });
 
       results_div.empty();
-      results_div.append(`<p class="results-info">Displaying ${results.length} results</p>`);
+      results_div.append(`<p class="results-info">${results.length} resultados.</p>`);
 
       for (var r in results) {
         var ref    = results[r].ref;
