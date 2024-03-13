@@ -84,10 +84,8 @@ search:
         fields: # Metadatos que se indexarán
           - label
           - identifier
-          - title
           - creator
           - date
-          - description
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS
