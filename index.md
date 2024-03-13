@@ -14,6 +14,7 @@ En esta colección se utilizan como fuentes primarias el archivo y documentos pe
 Los metadatos de la colección se contruyeron usando el siguiente protocolo: 
 
 ## Metadatos descrptivos
+
 - identifier: Proporciona un identificador único para el recurso. Puede ser un número, código o cualquier otra cadena única que identifique de manera única el recurso.
 - title: Representa el nombre o título del recurso. Es la denominación principal que se utiliza para referirse al recurso.
 - creator: Indica la entidad o individuo responsable de crear el recurso.

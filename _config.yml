@@ -87,7 +87,7 @@ search:
           - title
           - creator
           - date
-          -description
+          - description
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS
