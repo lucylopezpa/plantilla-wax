@@ -1,0 +1,50 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Hombrepaja/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Hombrepaja",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Hombrepaja/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/Hombrepaja.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Hombrepaja.json",
+          "label": "front",
+          "width": 2780,
+          "height": 4176,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Hombrepaja/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Hombrepaja.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Hombrepaja/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Hombrepaja",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2780,
+                "height": 4176
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Hombrepaja.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Hombrepaja/full/full/0/default.jpg",
+  "fullwidth": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Hombrepaja/full/1140,/0/default.jpg"
+}

@@ -1,0 +1,45 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Mesaconplantas",
+  "protocol": "http://iiif.io/api/image",
+  "width": 4768,
+  "height": 3562,
+  "sizes": [
+    {
+      "width": 4768,
+      "height": 3562
+    },
+    {
+      "width": 250,
+      "height": 187
+    },
+    {
+      "width": 1140,
+      "height": 852
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

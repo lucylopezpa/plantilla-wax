@@ -8,24 +8,84 @@ layout: none
   "label": "america",
   "manifests": [
     {
-      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/AdriaenCollaert/manifest.json",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Camion/manifest.json",
       "@type": "sc:Manifest",
-      "label": "AdriaenCollaert"
+      "label": "Camion"
     },
     {
-      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/JohannSadeler/manifest.json",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/CasaPrado/manifest.json",
       "@type": "sc:Manifest",
-      "label": "JohannSadeler"
+      "label": "CasaPrado"
     },
     {
-      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/PhilipsGalle/manifest.json",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Fachadavarias/manifest.json",
       "@type": "sc:Manifest",
-      "label": "PhilipsGalle"
+      "label": "Fachadavarias"
     },
     {
-      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/PhilipsGalle2/manifest.json",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Fajadaksa/manifest.json",
       "@type": "sc:Manifest",
-      "label": "PhilipsGalle2"
+      "label": "Fajadaksa"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Hombreconnino/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Hombreconnino"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Hombrepaja/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Hombrepaja"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Mesaconplantas/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Mesaconplantas"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Patioconperro/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Patioconperro"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Tendedero/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Tendedero"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/VistaAvenida/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "VistaAvenida"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/VistaBarranquilla/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "VistaBarranquilla"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/callerebolo1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "callerebolo1"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/callerebolo2/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "callerebolo2"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/casaconcamion/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "casaconcamion"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/hombrebarril/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "hombrebarril"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/hombrecascos/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "hombrecascos"
     }
   ]
 }
